@@ -58,7 +58,7 @@ int hdr_tcp::offset_;
 #include <algorithm>
 #include <errno.h>
 static const double TOLERANCE = 1e-6;
-#define USE_FIXED_SHARE true
+#define USE_FIXED_SHARE false
 //osama
 
 static class TCPHeaderClass : public PacketHeaderClass {
